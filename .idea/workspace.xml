@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa214461-7164-4f9f-8798-cf030ca1a31f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/pipeline.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/pipeline.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/presentation/api/src/main/resources/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/api/src/main/resources/application-prod.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-family/projectXmen.json" beforeDir="false" afterPath="$PROJECT_DIR$/task-family/projectXmen.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/api/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
