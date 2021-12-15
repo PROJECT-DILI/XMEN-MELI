@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa214461-7164-4f9f-8798-cf030ca1a31f" name="Default Changelist" comment="" />
+    <list default="true" id="fa214461-7164-4f9f-8798-cf030ca1a31f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/pipeline.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/pipeline.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presentation/api/src/main/resources/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/api/src/main/resources/application-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-family/projectXmen.json" beforeDir="false" afterPath="$PROJECT_DIR$/task-family/projectXmen.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,10 +30,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="22FC6F2az2MOYf0z7VgM3D6z6Py" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -35,6 +45,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -250,11 +261,12 @@
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state x="2034" y="244" key="new project wizard/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1639425288956" />
-    <state x="2346" y="420" key="run.anything.popup" timestamp="1639597232670">
-      <screen x="1680" y="0" width="1920" height="1080" />
+    <state x="2346" y="420" key="run.anything.popup" timestamp="1639599219781">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state x="2346" y="420" key="run.anything.popup/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1639597232670" />
     <state x="2305" y="255" key="run.anything.popup/1680.0.1920.1080/38.23.1642.1027@1680.0.1920.1080" timestamp="1639576399884" />
+    <state x="2346" y="420" key="run.anything.popup/1680.23.1920.1057/37.23.1643.1027@1680.23.1920.1057" timestamp="1639599219781" />
     <state x="2346" y="420" key="run.anything.popup/1680.23.1920.1057/38.23.1642.1027@1680.23.1920.1057" timestamp="1639596676585" />
     <state x="2305" y="255" key="run.anything.popup/1680.23.1920.1057/39.23.1641.1027@1680.23.1920.1057" timestamp="1639518229291" />
   </component>

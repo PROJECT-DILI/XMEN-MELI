@@ -1,34 +1,26 @@
 {
-  "family": "container-ecs",
+  "family": "bdb-qa-ecs-tf-test-mngr",
   "requiresCompatibilities": [
     "FARGATE"
   ],
   "cpu": "512",
   "memory": "1024",
   "networkMode": "awsvpc",
-  "taskRoleArn": "arn:aws:iam::790440370975:role/meli-pr-role",
-  "executionRoleArn": "arn:aws:iam::790440370975:role/meli-pr-role",
+  "taskRoleArn": "arn:aws:iam::561457267430:role/bdb-qa-role-test-mngr",
+  "executionRoleArn": "arn:aws:iam::561457267430:role/bdb-qa-role-test-mngr",
   "containerDefinitions": [
     {
       "portMappings": [
         {
           "protocol": "tcp",
-          "containerPort": 9053
+          "containerPort": 3049
         }
       ],
       "cpu": 512,
       "environment": [
         {
           "name": "SERVER_PORT",
-          "value": "9053"
-        },
-        {
-          "name": "TBL_REQUEST",
-          "value": "XMEN.REQUEST"
-        },
-        {
-          "name": "TBL_AMOUNT",
-          "value": "XMEN.AMOUNT"
+          "value": "3049"
         },
         {
           "name": "SPRING_PROFILES_ACTIVE",
@@ -36,15 +28,15 @@
         }
       ],
       "essential": true,
-      "image": "790440370975.dkr.ecr.us-east-1.amazonaws.com/meli-pr-ecs-ecr-mngr:latest",
+      "image": "561457267430.dkr.ecr.us-east-1.amazonaws.com/bdb-qa-ecs-ecr-test-mngr:latest",
       "memory": 1024,
       "memoryReservation": 512,
-      "name": "container-ecs",
+      "name": "bdb-qa-ecs-cn-test-mngr",
       "logConfiguration": {
         "logDriver": "awslogs",
         "options": {
           "awslogs-region": "us-east-1",
-          "awslogs-group": "meli-pr-cw-logs-mngr",
+          "awslogs-group": "bdb-qa-cw-logs-test-mngr",
           "awslogs-stream-prefix": "ecs"
         }
       }
